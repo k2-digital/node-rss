@@ -1,7 +1,7 @@
 {
-  "name": "rss",
-  "version": "1.2.2",
-  "description": "RSS feed generator. Add RSS feeds to any project. Supports enclosures and GeoRSS.",
+  "name": "rss-instant-article",
+  "version": "1.2.3",
+  "description": "RSS feed generator. Forked from node-rss made to work with FB instant article.",
   "keywords": [
     "rss",
     "xml",
@@ -18,7 +18,7 @@
     "lint": "grunt lint",
     "test:browser": "prova -b"
   },
-  "homepage": "http://github.com/dylang/node-rss",
+  "homepage": "http://github.com/k2digital/node-rss-instant-article",
   "author": {
     "name": "Dylan Greene",
     "email": "dylang@gmail.com"

@@ -1,6 +1,4 @@
-## rss  [![Build Status](http://img.shields.io/travis/dylang/node-rss.svg)](https://travis-ci.org/dylang/node-rss) [![rss](http://img.shields.io/npm/dm/rss.svg)](https://www.npmjs.org/package/rss)
-
-> RSS feed generator. Add RSS feeds to any project. Supports enclosures and GeoRSS.
+> RSS feed generator. Forked from [node-rss](https://github.com/dylang/node-rss) made to work with FB instant article.
 
 
 
@@ -14,7 +12,7 @@
 #### Create a new feed
 
 ```js
-var RSS = require('rss');
+var RSS = require('rss-instant-article');
 
 var feed = new RSS(feedOptions);
 ```
